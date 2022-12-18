@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="newforms.css">
+   </head>
+<body>
+
+         <form action="" method="post">
+                 <fieldset>
+                <h1 style="color:goldenrod;">FORMS</h1>
+                <table   cellpadding="" cellspacing="" bgcolor="">
+                    <tr>
+                        <td>
+                            <label for="aa">FirstName</label>
+                        </td>
+                        <td>
+                            <input type="text" name="aa" id="aa" placeholder="FirstName">(max 20 char a-z & A-Z)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="ba">LastName</label>
+                        </td>
+                        <td>
+                            <input type="text" name="ba" id="ba" placeholder="LastName">(max 20 char a-z & A-Z)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="bb">Date of Birth</label>
+                        </td>
+                        <td>
+                            <input type="date" id="bb" name="bb">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="cc">Password</label>
+                        </td>
+                        <td>
+                            <input type="password" name="cc" id="cc">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="dd">Gender</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="ss" id="dd">Male
+                            <input type="radio" name="ss" id="dd">Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="ff">PhoneNumber</label>
+                        </td>
+                        <td>
+                            <input type="number" name="ff" id="ff">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="gg">E-mail</label>
+                        </td>
+                        <td>
+                            <input type="email" name="gg" id="gg">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="hh">Address</label>
+                        </td>
+                        <td>
+                            <textarea name="Address" id="hh" cols="30" rows="10"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="jj">City</label>
+                        </td>
+                        <td>
+                            <input type="text" name="jj" id="jj">(max 20 char a-z & A-Z)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="kk">State</label>
+                        </td>
+                        <td>
+                            <input type="text" name="kk" id="kk">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="k">Country</label>
+                        </td>
+                        <td>
+                            <input type="text" name="k" id="k">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="ee">Pincode</label>
+                        </td>
+                        <td>
+                            <input type="number" name="ee" id="ee">(6-digit number)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="uu">Hobbies</label>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="uu" id="uu">Drawing
+                            <input type="checkbox" name="uu" id="uu">Singing
+                            <input type="checkbox" name="uu" id="uu">Dancing <br>
+                            <input type="checkbox" name="uu" id="uu">others
+                            <input type="text" name="uu" id="uu">
+                        </td>
+                    </tr>
+                    <tr>
+                        <table  cellpadding="" cellspacing="5px" >
+                            <tr>
+                                <td rowspan="5">Qualification</td>
+                                <th> sl.no Examination</th>
+                                <th>Board</th>
+                                <th>Percentage</th>
+                                <th>Year of passing</th>
+                            </tr>
+                            <tr>
+                                <td>01 Class X</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>02 Class XII</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>03 Degree </td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>04 Master</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                        </table>
+                        <tr>
+                            <td>
+                                <label for="oo">Courses <br> Applied for</label> 
+                            </td>
+                            <td>
+                                <input type="checkbox" name="oo" id="oo">BCA
+                            </td>
+                            <td>
+                                <input type="checkbox" name="oo" id="oo">B.com
+                            </td>
+                            <td>
+                                <input type="checkbox" name="oo" id="oo">B.A
+                            </td>
+                            <td>
+                                <input type="checkbox" name="oo" id="oo">B.sc
+                            </td>
+                        </tr><br>
+                        <tr>
+                            <td><pre>
+                                          <button type="submit">submit</button> <button type="reset">reset</button>
+                                
+                            </pre>
+                            </td>
+                        </tr>
+                    </tr>
+
+                </table>
+            </fieldset>
+       
+    </form>
+
+</body>
+</html>
